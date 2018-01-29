@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1" verbose="10">
+
+
+<test name="Regression">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="myURL" value="http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html"/>
+    <parameter name="registfirstName" value="Jane"/>
+    <parameter name="registlastName" value="Austin"/>
+    <parameter name="registerEmail" value="fixexy@nada.ltd"/>
+    <parameter name="registPhone" value="3478963181"/>
+    <parameter name="registPassword" value="qwer123"/>
+    <parameter name="registrePassword" value="qwer123"/>
+    <parameter name="registAdress" value="123 Andrew"/>
+    <parameter name="registCity" value="Los Angeles"/>
+    <parameter name="registState" value="CA"/>
+    <parameter name="registZip" value="90005"/>
+    <classes>
+        <class name="tests.VerifyRegistration"/></classes>
+</test>
+
+</suite>
+

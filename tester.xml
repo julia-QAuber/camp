@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite2" verbose="1">
+
+
+<test name="Testing Parameterization">
+    <parameter name="browser" value="chrome"/>
+    <parameter name="myURL" value="http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html"/>
+    <parameter name="username" value="jozifop@amail.club"/>
+    <parameter name="password" value="qwerty123"/>
+
+    <classes>
+        <class name="tests.VerifyLogin"/></classes>
+</test>
+
+</suite>
+
