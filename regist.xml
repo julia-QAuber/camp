@@ -17,6 +17,7 @@
     <parameter name="registZip" value="90005"/>
     <classes>
         <class name="tests.VerifyRegistration"/></classes>
+    //cbcjdbcnbc
 </test>
 
 </suite>
