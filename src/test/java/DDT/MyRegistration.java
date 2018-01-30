@@ -22,6 +22,6 @@ public class MyRegistration {
        driver.findElement(By.xpath("//a[@class='btn btn-block btn-default']")).click();
    }
 
-
+//Kate modified...
 
 }
