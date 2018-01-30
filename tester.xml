@@ -7,7 +7,7 @@
     <parameter name="myURL" value="http://ec2-52-53-181-39.us-west-1.compute.amazonaws.com/sign-in.html"/>
     <parameter name="username" value="jozifop@amail.club"/>
     <parameter name="password" value="qwerty123"/>
-
+//hbcjdbcjdnvcjnk
     <classes>
         <class name="tests.VerifyLogin"/></classes>
 </test>
